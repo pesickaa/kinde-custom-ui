@@ -1,7 +1,7 @@
 // CSS Variables configuration
 const kindeVariables = {
   baseFontFamily:
-    "Nippo, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
+    "Nippo-Regular, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   controlSelectTextBorderRadius: "1rem",
   buttonPrimaryBackgroundColor: "#C1AFEF",
   buttonPrimaryColor: "#f5f5f5",
@@ -15,7 +15,7 @@ const kindeVariables = {
 
 export const getStyles = (): string => `
   @font-face {
-    font-family: Nippo;
+    font-family: Nippo-Regular;
     src:
       url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Regular.woff2) format("woff2"),
       url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Regular.woff) format("woff");
@@ -25,7 +25,7 @@ export const getStyles = (): string => `
   }
 
   @font-face {
-    font-family: Nippo;
+    font-family: Nippo-Bold;
     src:
       url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Bold.woff2) format("woff2"),
       url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Bold.woff) format("woff");
@@ -48,6 +48,15 @@ export const getStyles = (): string => `
     --kinde-control-select-text-border-color: #636363;
     --kinde-button-primary-border-width: 0;
     --kinde-designer-base-link-color: #fff;
+  }
+
+  body,
+  [data-kinde-root],
+  [data-kinde-root] button,
+  [data-kinde-root] input,
+  [data-kinde-root] select,
+  [data-kinde-root] textarea {
+    font-family: var(--kinde-base-font-family);
   }
 
   [data-kinde-control-label] {
