@@ -15,9 +15,9 @@ const kindeVariables = {
 
 export const getStyles = (): string => `
   @font-face {
-    font-family: Instrument Sans;
-    src: url(https://asset.kindedemo.com/evolve-ai/InstrumentSans-VariableFont_wdth,wght.ttf);
-    /* replace with your font (hosted on your server) */
+    font-family: Nippo-Regular;
+    src: url(https://kinde.silvaeth.art/public/assets/fonts/Nippo-Regular.ttf);
+  
   }
 
   :root {
