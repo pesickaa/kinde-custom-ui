@@ -16,7 +16,7 @@ const kindeVariables = {
 export const getStyles = (): string => `
   @font-face {
     font-family: Nippo-Regular;
-    src: url(https://kinde.silvaeth.art/public/assets/fonts/Nippo-Regular.ttf);
+    src: url(https://kinde.silvaeth.art/assets/fonts/Nippo-Regular.ttf);
   
   }
 
