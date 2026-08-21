@@ -13,7 +13,7 @@ const styles: {
     flexDirection: "column",
     justifyContent: "space-between",
     background:
-      "no-repeat cover/50% url(https://account.silvaeth.art/assets/images/bg.png)",
+      "url(https://kinde.silvaeth.art/assets/images/bg.png) no-repeat center/cover",
   },
 };
 
