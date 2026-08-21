@@ -13,7 +13,7 @@ const styles: {
     flexDirection: "column",
     justifyContent: "space-between",
     background:
-      "url(https://asset.kindedemo.com/evolve-ai/bg.png) lightgray 50% / cover no-repeat",
+      "no-repeat cover/50% url(https://asset.kindedemo.com/evolve-ai/bg.png)",
   },
 };
 
