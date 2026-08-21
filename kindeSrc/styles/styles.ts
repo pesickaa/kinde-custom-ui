@@ -1,7 +1,7 @@
 // CSS Variables configuration
 const kindeVariables = {
   baseFontFamily:
-    "Nippo-Regular, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
+    "Nippo, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   controlSelectTextBorderRadius: "1rem",
   buttonPrimaryBackgroundColor: "#C1AFEF",
   buttonPrimaryColor: "#f5f5f5",
@@ -15,9 +15,21 @@ const kindeVariables = {
 
 export const getStyles = (): string => `
   @font-face {
-    font-family: Nippo-Regular;
-    src: url(https://kinde.silvaeth.art/assets/fonts/Nippo-Regular.ttf) format("truetype");
+    font-family: Nippo;
+    src:
+      url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Regular.woff2) format("woff2"),
+      url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Regular.woff) format("woff");
     font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Nippo;
+    src:
+      url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Bold.woff2) format("woff2"),
+      url(https://kinde.silvaeth.art/fonts/nippo/Nippo-Bold.woff) format("woff");
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
   }
