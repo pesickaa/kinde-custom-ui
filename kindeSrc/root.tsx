@@ -30,6 +30,26 @@ export const Root = ({
         <title>{context.widget.content.page_title}</title>
 
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
+
+        <link
+          as="font"
+          crossOrigin="anonymous"
+          href="https://kinde.silvaeth.art/fonts/nippo/Nippo-Regular.woff2"
+          rel="preload"
+          type="font/woff2"
+        />
+        <link
+          as="font"
+          crossOrigin="anonymous"
+          href="https://kinde.silvaeth.art/fonts/nippo/Nippo-Bold.woff2"
+          rel="preload"
+          type="font/woff2"
+        />
+        <link
+          href="https://kinde.silvaeth.art/kinde-fonts.css"
+          rel="stylesheet"
+        />
+
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
         <style>{getStyles()}</style>

@@ -12,6 +12,8 @@ const styles: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
+    fontFamily:
+      "Nippo, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, sans-serif",
     background:
       "url(https://kinde.silvaeth.art/assets/images/bg.png) no-repeat center/cover",
   },
