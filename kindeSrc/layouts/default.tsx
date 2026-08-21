@@ -12,8 +12,7 @@ const styles: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    background:
-      "no-repeat cover/50% url(https://asset.kindedemo.com/evolve-ai/bg.png)",
+    background: "no-repeat cover/50% url(../assets/images/bg.png)",
   },
 };
 
