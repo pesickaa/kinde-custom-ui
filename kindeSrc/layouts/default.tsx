@@ -12,7 +12,8 @@ const styles: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    background: "no-repeat cover/50% url(../assets/images/bg.png)",
+    background:
+      "no-repeat cover/50% url(https://account.silvaeth.art/assets/images/bg.png)",
   },
 };
 
