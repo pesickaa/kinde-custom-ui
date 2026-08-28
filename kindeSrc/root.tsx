@@ -27,8 +27,8 @@ export const Root = ({
         <meta content={getKindeCSRF()} name="csrf-token" />
         <meta content="light" name="color-scheme" />
         <meta content="nopagereadaloud" name="google" />
-        <title data-page-title>{context.widget.content.pageTitle}</title>
-
+        <title data-page-title>Silvaeth Art</title>
+        {/* {context.widget.content.pageTitle} */}
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
 
         <link
